@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rcprogramming.vynyl">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vynyl_logo_standard"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vynyl_logo_standard"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VYNYL">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
