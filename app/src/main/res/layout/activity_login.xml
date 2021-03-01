@@ -68,7 +68,7 @@
             android:textSize="15sp"
             android:maxLines="1"
             android:lines="1"
-            android:inputType="text"
+            android:inputType="textPassword"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
